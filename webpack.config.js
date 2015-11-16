@@ -27,8 +27,8 @@ var config = {
       test: /\.css$/, // Only .css files
       loader: 'style!css' // Run both loaders
     }, {
-      test: /\.sass$/,
-      loaders: ["style", "css", "sass?indentedSyntax"]
+      test: /\.scss$/,
+      loaders: ["style", "css", "sass"]
     }]
   },
 

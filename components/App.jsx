@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Component1 from './Component1';
-import '../styles/components/App.sass';
+import '../styles/components/App.scss';
 
 export default class App extends Component {
   render () {
